@@ -6,6 +6,25 @@
 
 npm install --save mongo-oplog-watch
 
+## Mongo configuration
+
+Configure MongoDB for ac active oplog:
+
+Start MongoDB with:
+
+``` bash
+$ mongod --replSet test
+```
+
+Start a `mongo` shell and configure mongo as follows:
+
+```bash
+> var config = {_id: "test", members: [{_id: 0, host: "127.0.0.1:27017"}]}
+> rs.initiate(config)
+```
+
+Once configuration is initiated then you can use the package in your application.
+
 ## Usage
 
 ```js
