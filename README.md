@@ -69,26 +69,29 @@ watcher.on('end', function () {
 
 - Other useful methods
 
-```js
-watcher.stop(function() {
-  // Tailing stopped
-});
-```
   - Stop tailing and disconnect from server
+  ```js
+  watcher.stop(function() {
+    // Tailing stopped
+  });
+  ```
+  
 
-```js
-watcher.destroy(function() {
-  // Destroyed
-});
-```
   - Destroy the mongo-oplog object by stop tailing and disconnecting from server
+  ```js
+  watcher.destroy(function() {
+    // Destroyed
+  });
+  ```
 
-```js
-watcher.pause();
-```
+
   - Pause oplog events
+  ```js
+  watcher.pause();
+  ```
 
-```js
-watcher.resume();
-```
+
   - Resume oplog events
+  ```js
+  watcher.resume();
+  ```
