@@ -1,0 +1,28 @@
+{
+  "name": "mongo-oplog-watch",
+  "version": "1.0.0",
+  "description": "Watch for changes in mongoDB using oplog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "mongo-watch",
+    "oplog",
+    "mongoose",
+    "watch"
+  ],
+  "author": "Sachin Bansal <sachinbansal94@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongo-oplog": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinb94/mongo-oplog-watch"
+  },
+  "bugs": {
+    "url": "https://github.com/sachinb94/mongo-oplog-watch/issues"
+  }
+}
