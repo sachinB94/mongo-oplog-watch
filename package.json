@@ -1,6 +1,6 @@
 {
   "name": "mongo-oplog-watch",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Watch for changes in mongoDB using oplog",
   "main": "index.js",
   "scripts": {
